@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu2">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Menu Makanan" />
+
+        <Button
+            android:id="@+id/button_toast"
+            android:layout_width="100dp"
+            android:layout_height="54dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="280dp"
+            android:text="Buat Order"
+            android:onClick="pilihanAkhir"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_Pizza"
+            android:layout_width="150dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="85dp"
+            android:checked="false"
+            android:text="Pizza"
+            android:onClick="itemPilih"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_Sashimi"
+            android:layout_width="150dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            android:checked="false"
+            android:text="Sashimi"
+            android:onClick="itemPilih"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox_Tokoroten"
+            android:layout_width="150dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="155dp"
+            android:checked="false"
+            android:text="Tokoroten"
+            android:onClick="itemPilih"/>
+
+
+        <CheckBox
+
+            android:id="@+id/checkBox_CheeseC"
+            android:layout_width="150dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="190dp"
+            android:checked="false"
+            android:text="Cheese cake"
+            android:onClick="itemPilih"/>
+
+
+        <CheckBox
+            android:id="@+id/checkBox_Gyoza"
+            android:layout_width="150dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="225dp"
+            android:checked="false"
+            android:text="Gyoza"
+            android:onClick="itemPilih"/>
+
+        <TextView
+            android:id="@+id/tampilMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="350dp"
+            android:text="Hi, what would you like to eat?" />
+    </RelativeLayout>
+
+</ScrollView>
